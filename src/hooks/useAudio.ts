@@ -29,7 +29,11 @@ export const useAudio = (audioSrc: string): UseAudioReturn => {
   }, []);
 
   const toggleAudio = useCallback(() => {
-    if (!audioRef.current || !hasInteracted) return;
+    if (!audioRef.current) return;
+
+    if (!hasInteracted) {
+      setHasInteracted(true);
+    }
 
     if (isPlaying) {
       audioRef.current.pause();

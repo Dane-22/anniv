@@ -87,7 +87,7 @@ export const NurseStation: React.FC = () => {
             </div>
             <div>
               <h3 className="font-playfair text-xl lg:text-2xl font-bold text-gray-900 dark:text-white">
-                Shift Lead Mochi, RN
+                Baby Mochi, RN
               </h3>
               <p className="text-sm text-gray-500 dark:text-gray-400 font-inter">
                 Head of Cardiac Care Unit
