@@ -6,13 +6,14 @@ import { useAudio } from './hooks/useAudio';
 import { Hero } from './components/Hero';
 import { VitalsCounter } from './components/VitalsCounter';
 import { EditorialGallery } from './components/EditorialGallery';
+import { VideoSection } from './components/VideoSection';
 import { NurseStation } from './components/NurseStation';
 import { DosageButton } from './components/DosageButton';
 
 gsap.registerPlugin(ScrollTrigger);
 
 const AppContent: React.FC = () => {
-  const { isPlaying, hasInteracted, toggleAudio, setUserInteracted } = useAudio('/audio/anniversary-song.mp3');
+  const { isPlaying, hasInteracted, toggleAudio, setUserInteracted } = useAudio('/audio/Baby,_I_do_-_Juris__Lyrics_(128k).mp3');
 
   const handleUserInteraction = useCallback(() => {
     if (!hasInteracted) {
@@ -40,6 +41,7 @@ const AppContent: React.FC = () => {
         />
         <VitalsCounter />
         <EditorialGallery />
+        <VideoSection />
         <NurseStation />
         <DosageButton />
       </main>

@@ -5,6 +5,7 @@ import { Volume2, VolumeX, Moon, Sun, Activity } from 'lucide-react';
 import { useTheme } from '../context/ThemeContext';
 import { useLottie } from 'lottie-react';
 
+
 gsap.registerPlugin(TextPlugin);
 
 // Lottie animation data for heartbeat ECG morphing to sunflower
