@@ -94,7 +94,7 @@ const GalleryImage: React.FC<GalleryImageProps> = ({ image, index }) => {
           }}
         >
           {/* Fallback gradient when no image */}
-          <div className="absolute inset-0 bg-gradient-to-br from-sunburst/40 via-cream to-emerald/30 dark:from-goldenrod/30 dark:via-midnight dark:to-forest-green/30" />
+          <div className="absolute inset-0 bg-gradient-to-br from-sunburst/40 via-cream to-emerald/30 dark:from-goldenrod/30 dark:via-midnight dark:to-forest-green/30 opacity-0 group-hover:opacity-10 transition-opacity duration-500" />
           
           {/* Hover overlay */}
           <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-500 flex items-center justify-center">
