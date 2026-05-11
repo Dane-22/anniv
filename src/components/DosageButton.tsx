@@ -59,7 +59,7 @@ const RippleButton: React.FC<RippleButtonProps> = ({ onClick, children }) => {
 const letterParagraphs = [
   "My Dearest Rose Caroline Ramos,",
   "",
-  "From the moment our paths crossed on that fateful May evening in 2021, I knew my life would never be the same. You walked into my world like sunlight breaking through storm clouds, illuminating every corner of my existence with your warmth and grace.",
+  "From the moment our paths crossed on that fateful May evening in 2023, I knew my life would never be the same. You walked into my world like sunlight breaking through storm clouds, illuminating every corner of my existence with your warmth and grace.",
   "",
   "They say time flies when you're having fun, but with you, time seems to stand still while simultaneously racing forward. Each year with you has been a precious gift, each month a new chapter in our beautiful story, each day an opportunity to love you more deeply than the day before.",
   "",
@@ -69,7 +69,7 @@ const letterParagraphs = [
   "",
   "As I write this, I am reminded of all the beautiful moments we've shared—the laughter that filled our home, the quiet moments of understanding, the adventures that took our breath away, and the simple, ordinary days that became extraordinary simply because we spent them together.",
   "",
-  "Rose, you are the most beautiful flower in my garden of life. Your petals may have faced storms, but you've always bloomed with resilience and grace. Your fragrance sweetens every moment, and your presence makes every space feel like home.",
+  "Babe, you are the most beautiful flower in my garden of life. Your petals may have faced storms, but you've always bloomed with resilience and grace. Your fragrance sweetens every moment, and your presence makes every space feel like home.",
   "",
   "I promise to continue cherishing you, supporting your dreams, holding your hand through every challenge, and loving you with a depth that words can never fully capture. You deserve a love that is as infinite as the stars, as deep as the ocean, and as enduring as time itself.",
   "",
